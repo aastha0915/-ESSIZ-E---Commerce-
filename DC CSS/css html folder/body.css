@@ -1,0 +1,68 @@
+
+
+
+.abc{background-color: darkcyan;}
+/* to increase font and to make font color, family ( style)change  change 
+text decoration for underline 
+*/
+.property{background-color: salmon;
+          color: black; 
+          font-size: 50px;
+          font-family:  gill sans ;
+          text-decoration: underline;
+          text-decoration-style: wavy;
+          /* text-decoration: line-through; to cut it  */
+          /* text-decoration-style: wavy; to style the underline 
+          to add shadow --> text shadow 4p(h) 6p(v) 8p(b) (colour) */
+          text-decoration-color: aqua;
+          text-shadow: -3px 6px 4px darkcyan;
+          text-orientation: sideways-right;
+          text-align: center;
+
+        }  
+        .para{background-color: aqua;
+              color: darkslategrey;
+              font-size: 23px;
+              font-family: franklin gothik medium;
+              font-style: italic;
+              text-align: left;
+              text-decoration: aqua;
+              word-spacing: 20px;
+              letter-spacing: 2px;
+            }
+        .para2{word-spacing: 20px;
+               font-size: 13px;
+              letter-spacing: 5px;
+               ;
+              background-color: blanchedalmond;
+              text-align: right; 
+              font-weight: bold;
+              font-family:Segoe UI;
+              font-style: italic;
+              text-decoration: black;
+              text-decoration: underline;
+              text-decoration-style: wavy;}    
+
+        .main{background-color:aqua;
+              padding: 70px;
+             margin-top: 90px;
+             margin-left: 98px;
+            ;}
+         .main button{ padding: 9px;}
+         .new{background-color: chartreuse;
+            height: 300px;
+            width: 700px;
+                   box-shadow: 4px 5px 6px 8px green;
+                   margin-left: 30px;
+                  
+                  margin-top: 70px;
+                  margin-left: 200px;
+                 border: 10px solid blue;
+                border-top-left-radius: 33px;
+                border-bottom-right-radius: 33px;
+                /*border radius :- to make circle 50%
+                border top,left,down,right to get individual,
+                under justify content==space- between / space around/ space elevenly
+                     ( to change elements into row ) */
+                
+                  }     

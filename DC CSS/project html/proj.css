@@ -1,0 +1,301 @@
+*{margin: 0;
+  padding: 0;}
+
+.div{
+        position: sticky;
+        top: 0;
+}
+
+
+.nav{display: flex;
+     /* justify-content: space-between; */
+     /* gap: 30px; */
+     
+
+     position: sticky;
+     /* align-items: center; */
+     
+     top: 0;
+     height: 80px;
+  
+}
+
+.box1{   
+        color: black;
+        font-size: 23px;
+        font-style: italic;
+        padding-right: 66px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 18px;
+        background-color: lightgreen;
+        margin:0;
+
+        }
+
+
+.nav button{
+
+        height: 16px;
+        width: 159px;
+        
+}
+
+
+
+.logos{
+      font-size: 34px;  
+      color: black;
+      background-color: lightgreen;
+     
+      width: 140px;
+      }
+
+
+.ul{
+    display: flex;
+    text-decoration: aliceblue;
+    color: white;
+    gap: 50px;
+     /* padding-top: 20px; */
+     padding: 40px;
+background-color: lightseagreen;
+padding: 32px 280px;
+}     
+     
+
+        
+.div1{background-image: url(vege.jpg);
+        height: 600px;
+      }
+
+.div1 h1{
+        color: orangered;
+        font-size: 60px;
+        padding-top: 180px;
+        padding-left: 110px;
+}
+
+.div1 h2{
+        color: aliceblue;
+        font-size: 80px;
+        padding-left:110px;
+}
+
+.div1 h3{
+        color: orangered;
+        font-size: 60px;
+        padding-left: 110px;
+        text-decoration: underline;
+        text-decoration: dashed ;
+        
+}
+
+.div1 button{ 
+        background-color: lightgreen;
+        padding: 12px;
+        margin-left: 110px;
+        border-radius: 56px;
+        width: 200px;
+}
+.div1 button:hover{
+        background-color: orangered;
+        padding: 12px;
+        cursor: pointer;
+        
+}
+
+.div2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto ;
+        height: 500px;
+        padding-bottom: 23px;
+       padding-top: 23px;
+        padding-left: 160px;
+        padding-right: 210px;
+        background-color: whitesmoke;
+        
+       /* border-top: 80px solid lightgreen;
+        border-bottom: 80px solid lightgreen;*/
+        
+}
+       
+
+.d2 h1{ 
+        color: green;
+        font-size: 35px;
+        padding-left: 100px;
+        padding-top: 34px;
+}
+
+.d2 p{
+        color: orangered;
+        padding-left: 45px;
+        font-size: 19px;
+}
+
+.d2 button{
+        background-color: lightgreen;
+        margin-left: 125px;
+        height: 40px;
+        width: 100px;
+        border-radius:45px;
+        
+
+}
+
+.div2 :hover{
+        background-color: yellow;
+}
+
+.d2 button:hover{
+        background-color: orangered;
+        padding: 12px;
+        cursor: pointer;
+        
+}
+
+.d{
+        border: 4px solid lightyellow;
+}
+
+
+.div3{
+        padding-top: 100px;
+        padding-bottom: 60px;
+}
+
+
+.div3_1{
+        display:flex;
+        margin-left: 200px;
+        
+        gap:135px;
+}
+
+
+.shop1{
+        background-color: lightcoral;
+        height:130px;
+        width: 130px;
+        border: 2px solid white;
+        border-radius: 50%;
+        font-size: 45px;
+        text-align: center;
+}
+.shop1:hover{
+        background-color: blue;
+        cursor: pointer;
+}
+.shop2:hover{
+        background-color: blue;
+        cursor: pointer;
+}
+.shop3:hover{
+        background-color: blue;
+        cursor: pointer;
+}
+.shop4:hover{
+        background-color: blue;
+        cursor: pointer;
+}
+
+.shop2{
+        background-color: aqua;
+        height: 130px;
+        width: 130px;
+        border: 2px solid white;
+        border-radius: 50%; 
+        font-size: 45px;
+        text-align: center;
+}
+
+.shop3{
+        background-color: deeppink;
+        height:130px;
+        width: 130px;
+        border: 2px solid white;
+        border-radius: 50%;
+        
+        text-align: center;
+}
+
+
+.shop4{
+        background-color: chartreuse;
+        height:130px;
+        width: 130px;
+        border: 2px solid white;
+        border-radius: 50%;  
+}
+
+
+.fa-solid{
+        font-size: 67px;
+        padding: 33px;
+        padding-top: 60px;
+}
+
+.fa-solid.fa-ranking-star.fa-beat{
+
+        font-size: 44px;
+        padding:14px;
+        padding-top: 38px;
+}
+
+.fa-solid.fa-users.fa-beat{ 
+        font-size: 44px;
+        padding:14px;
+        padding-top: 40px;
+        padding-left: 38px;
+}
+
+
+.div3_2{
+        display:flex;
+        gap:100px;
+        padding: 35px;
+        margin-left: 160px;
+}
+
+.bar1 h1{font-size: 20px;color: black;}
+.bar1 p{text-align: center; color:black}
+.bar2 h1{font-size: 20px; color:black}
+.bar2 p{text-align: center; color:black}
+.bar3 h1{font-size: 20px; color:black}
+.bar3 p{text-align: center; color:black}
+.bar4 h1{font-size: 20px; color:black}
+.bar4 p{text-align: center; color:black}
+
+
+
+.div4{
+        background-image: url(divvvvvv4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        padding: 67px;
+}
+
+
+.sustainable h1{
+          font-size: 54px;
+          color: black;
+        
+          text-shadow: 3px 1px 2px green;
+}
+
+.sustainable p{
+
+        font-size: 25px;
+        font-style: italic;
+        gap: 23px;
+}
+
+
+
+.div5_1{
+
+        
+        }

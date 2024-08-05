@@ -1,0 +1,21 @@
+.display{
+        display: flex;
+         list-style: none ;
+        gap: 40px;
+        justify-content: right;
+       }
+.child{
+      height: 88px;
+      width: 120px;
+      background-color: chartreuse;
+      border: 2px solid black;}
+.perent{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 12px;
+        background-color:darkslateblue;
+            }     
+ .parent2{
+        display: flex;
+          background-color: darkkhaki;
+         justify-content: space-evenly ;}           

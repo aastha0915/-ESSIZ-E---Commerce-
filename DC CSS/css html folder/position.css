@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+
+
+.nav{display: flex;
+     justify-content: space-around;
+     background-color: chartreuse;
+     position: sticky;
+     top: 0;
+     
+    }
+
+
+
+.ul{display: flex;
+    gap: 40px;
+    position:sticky;
+    background-color: chartreuse;
+    top:0}
+
+
+
+    @media screen and (max-width: 768px){
+        body{
+            background-color: crimson;
+        }
+        
+    } 
+    
+    
+    @media screen  and (max-width:420px){
+        body{
+            background-color: black;
+            
+        }
+    } 

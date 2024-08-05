@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: crimson;
+    }
+    
+} 
+
+
+@media screen  and (max-width:420px){
+    body{
+        background-color: black;
+        
+    }
+}
+    
+}
+    

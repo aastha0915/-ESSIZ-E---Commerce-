@@ -1,0 +1,46 @@
+.div{
+    background-color: crimson;
+    color: black;
+    padding: 34px;
+}
+
+
+.div:hover{
+            background-color: forestgreen;
+            color: midnightblue;
+
+}
+
+.div button:hover{
+              background-color: aqua;
+              padding: 12px;
+              cursor: pointer;
+              
+}
+
+p:first-child{
+             background-color: lawngreen;
+}
+p:nth-child(odd){
+             background-color: lawngreen;
+}
+
+p::first-letter{
+           font-size: 34px;
+           color: crimson;
+}
+
+p::first-line{
+           font-weight: bold;
+}
+
+h1::before{
+     content: "hey  ";
+     background-color: crimson;
+}
+
+h1::after{
+      content: "  always";
+      background-color: crimson;
+      color: aliceblue;
+}     

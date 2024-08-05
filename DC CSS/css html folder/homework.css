@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.body{
+    background-color: bisque;
+    background-image: url(pastell.jpg) ;
+    }
+
+
+.navigation{background-color: deeppink;
+           display: flex;
+           gap: 30px;
+           justify-content: space-around;
+           padding: 10px;
+           font-size: 30px;
+           }
+.navigation ul{display: flex;
+                gap: 50px;
+                font-size: 40px;
+              }           
+
+.div{background-color: lightcoral;
+    align-items: center;
+     height: 100vh;
+     display: flex;
+     justify-content: space-around;
+     padding: 5px;
+     }
+     
+     
+.h1{padding-left: 4px;
+    font-size: 80px;
+    text-decoration: underline;
+    text-shadow: 5px 6px 4px deeppink;
+    font-family: gill sans;
+    }
+
+
+
+
+
+.Explore{font-size: 30px;
+         border-radius: 20px;
+         height: 40px;
+         width: 130px;
+       }    
+         
+.Enhance{font-size: 30px;
+         border-radius: 20px;
+         height: 40px;
+         width: 130px;
+       }
+
+.Enlight{font-size: 30px;
+        height: 40px;
+        width: 130px;
+        border-radius: 20px;
+        padding: 3px;}
+
+
+.image{border-radius: 60%;
+       border: 10px solid black ;
+       border-style: groove;
+      }
+     
+.button{color: black;
+        background-color: deeppink;
+       border-radius: 10px;
+      height: 30px;
+      width: 100px;
+    border: 3px solid black;}
